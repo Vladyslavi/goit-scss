@@ -2,14 +2,14 @@
 $base-weight: 400;
 
 @for $i from 0 through 3 {
-  // 1 step: $i = 0
-  // 2 step: $i = 1
-  // 3 step: $i = 2
-  // 4 step: $i = 3
+    // 1 step: $i = 0
+    // 2 step: $i = 1
+    // 3 step: $i = 2
+    // 4 step: $i = 3
 
-  .fw-#{$base-weight+($i * 100)} {
-    font-weight: $base-weight + ($i * 100);
-  }
+    .fw-#{$base-weight+($i * 100)} {
+        font-weight: $base-weight + ($i * 100);
+    }
 }
 
 // difference between "through" and "to"
@@ -18,11 +18,11 @@ $base-weight: 400;
 // }
 
 @for $_ from 0 through 3 {
-  @debug $_;
+    @debug $_;
 }
 
 $n: 0;
 
 @while $n < 4 {
-  $n: $n + 1;
+    $n: $n +1;
 }

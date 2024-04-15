@@ -28,21 +28,21 @@
   |============================
 */
 ul > {
-  li {
-    list-style: none;
-  }
+    li {
+        list-style: none;
+    }
 }
 
 h2 {
-  + p {
-    border-top: 1px solid gray;
-  }
+    + p {
+        border-top: 1px solid gray;
+    }
 }
 
 p {
-  ~ {
-    span {
-      opacity: 0.8;
+    ~ {
+        span {
+            opacity: 0.8;
+        }
     }
-  }
 }

@@ -1,4 +1,4 @@
-@forward "variables";
-// @forward "mixins";
-// @forward "functions";
-// @forward "placeholders";
+@use "variables";
+@use "functions";
+@use "mixins";
+@use "placeholders";

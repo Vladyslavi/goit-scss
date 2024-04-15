@@ -14,19 +14,19 @@ $color-background: #e9e9e9;
 // | Обєʼднані значення (мапа)
 // |============================
 $colors: (
-  "primary": #8e3329,
-  "accent": #d98328,
-  "secondary": #5a1321,
-  "foreground": #191919,
-  "background": #e9e9e9,
+    "primary": #8e3329,
+    "accent": #d98328,
+    "secondary": #5a1321,
+    "foreground": #191919,
+    "background": #e9e9e9,
 );
 
 /*  Отримуємо значення з мапи */
 body {
-  background-color: map.get($colors, "background");
+    background-color: map.get($colors, "background");
 }
 
 // Функція-утиліта для доступу до властивостей мапи
 @function get-color($key) {
-  @return map.get($colors, $key);
+    @return map.get($colors, $key);
 }
